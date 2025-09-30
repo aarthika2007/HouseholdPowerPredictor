@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 import pandas as pd
 
 # Load model and scalers
-model = load_model("lstm_power_model (1).keras")
+model = load_model("lstm_power_model.zip")
 scaler_X = joblib.load("scaler_X (2).pkl")
 scaler_y = joblib.load("scaler_y (2).pkl")
 
