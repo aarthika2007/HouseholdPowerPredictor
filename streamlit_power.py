@@ -5,9 +5,9 @@ from tensorflow.keras.models import load_model
 import pandas as pd
 
 # Load model and scalers
-model = load_model("lstm_power_model.keras")
-scaler_X = joblib.load("D:\Internship\ITR\scaler_X (1).pkl")
-scaler_y = joblib.load("D:\Internship\ITR\scaler_y (1).pkl")
+model = load_model("lstm_power_model(1).keras")
+scaler_X = joblib.load("scaler_X (2).pkl")
+scaler_y = joblib.load("scaler_y (2).pkl")
 
 # Load dataset for About Data tab
 data = pd.read_excel("Cleaned_Dataset.xlsx")
